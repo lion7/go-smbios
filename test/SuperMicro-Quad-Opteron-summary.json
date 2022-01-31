@@ -1,0 +1,326 @@
+{
+	"BIOS": {
+		"Vendor": "American Megatrends Inc.",
+		"Version": "3.00",
+		"ReleaseDate": "09/04/2012"
+	},
+	"System": {
+		"Manufacturer": "Supermicro",
+		"ProductName": "H8QG6",
+		"SerialNumber": "1234567890",
+		"UUID": "47513848-0036-3000-48fe-003048fec30c",
+		"SKUNumber": "1234567890",
+		"Family": "Server"
+	},
+	"Enclosure": {
+		"Manufacturer": "Supermicro",
+		"SerialNumber": "1234567890."
+	},
+	"Baseboard": {
+		"Manufacturer": "Supermicro",
+		"ProductName": "H8QG6",
+		"SerialNumber": "1234567890",
+		"BoardType": "Processor/Memory Module"
+	},
+	"Processors": {
+		"ProcessorCount": 4,
+		"TotalCoreCount": 48,
+		"TotalThreadCount": 48,
+		"Processors": [
+			{
+				"Manufacturer": "AMD",
+				"ProductName": "AMD Opteron(tm) Processor 6174",
+				"SerialNumber": "",
+				"Speed": "2200 Mhz",
+				"CoreCount": 12,
+				"ThreadCount": 12
+			},
+			{
+				"Manufacturer": "AMD",
+				"ProductName": "AMD Opteron(tm) Processor 6174",
+				"SerialNumber": "",
+				"Speed": "2200 Mhz",
+				"CoreCount": 12,
+				"ThreadCount": 12
+			},
+			{
+				"Manufacturer": "AMD",
+				"ProductName": "AMD Opteron(tm) Processor 6174",
+				"SerialNumber": "",
+				"Speed": "2200 Mhz",
+				"CoreCount": 12,
+				"ThreadCount": 12
+			},
+			{
+				"Manufacturer": "AMD",
+				"ProductName": "AMD Opteron(tm) Processor 6174",
+				"SerialNumber": "",
+				"Speed": "2200 Mhz",
+				"CoreCount": 12,
+				"ThreadCount": 12
+			}
+		]
+	},
+	"Memory": {
+		"ModuleCount": 32,
+		"TotalSize": "128 GB",
+		"Modules": [
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFDE",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFB3",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFE6",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D01D",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D025",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D026",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CF96",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D023",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4454E1A8",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D07A",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFAB",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D071",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFA1",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFD0",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CF9B",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D075",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFDA",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D02C",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFD2",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFD6",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D01B",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFCD",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D06D",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D066",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CF92",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "475E9D29",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "475FA535",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "475E9DC2",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459CFF1",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "475E9D5A",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "4459D045",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270CH0-CH9",
+				"SerialNumber": "475E9D52",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "667 MT/s"
+			}
+		]
+	}
+}

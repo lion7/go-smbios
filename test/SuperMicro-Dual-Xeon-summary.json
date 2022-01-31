@@ -1,0 +1,182 @@
+{
+	"BIOS": {
+		"Vendor": "American Megatrends Inc.",
+		"Version": "3.0c",
+		"ReleaseDate": "03/24/2014"
+	},
+	"System": {
+		"Manufacturer": "Supermicro",
+		"ProductName": "SYS-1027R-WRF",
+		"SerialNumber": "E09626824801435",
+		"UUID": "00000000-0000-0000-0000-002590eb9628",
+		"SKUNumber": "",
+		"Family": ""
+	},
+	"Enclosure": {
+		"Manufacturer": "Supermicro",
+		"SerialNumber": "C1130LC49MH0061"
+	},
+	"Baseboard": {
+		"Manufacturer": "Supermicro",
+		"ProductName": "X9DRW",
+		"SerialNumber": "VM145S005223",
+		"BoardType": "Processor/Memory Module"
+	},
+	"Processors": {
+		"ProcessorCount": 2,
+		"TotalCoreCount": 16,
+		"TotalThreadCount": 32,
+		"Processors": [
+			{
+				"Manufacturer": "Intel",
+				"ProductName": "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz",
+				"SerialNumber": null,
+				"Speed": "2600 Mhz",
+				"CoreCount": 8,
+				"ThreadCount": 16
+			},
+			{
+				"Manufacturer": "Intel",
+				"ProductName": "Intel(R) Xeon(R) CPU E5-2650 v2 @ 2.60GHz",
+				"SerialNumber": null,
+				"Speed": "2600 Mhz",
+				"CoreCount": 8,
+				"ThreadCount": 16
+			}
+		]
+	},
+	"Memory": {
+		"ModuleCount": 16,
+		"TotalSize": "64 GB",
+		"Modules": [
+			{
+				"Manufacturer": "Micron",
+				"ProductName": "18KSF51272PZ-1G4K",
+				"SerialNumber": "346C4A12",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "HP647647-071-HYE",
+				"SerialNumber": "D2166C8B",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Micron",
+				"ProductName": "18KSF51272PZ-1G4K",
+				"SerialNumber": "346C4A0C",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "HP647647-071-HYE",
+				"SerialNumber": "4219C94A",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "HP647647-071-HYE",
+				"SerialNumber": "CB16BE85",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Hynix Semiconductor",
+				"ProductName": "HMT351R7EFR4A-H9",
+				"SerialNumber": "40037599",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Hynix Semiconductor",
+				"ProductName": "HMT351R7CFR4A-H9",
+				"SerialNumber": "2E5B6FC2",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Hynix Semiconductor",
+				"ProductName": "HMT351R7CFR4A-H9",
+				"SerialNumber": "4450CF8D",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Hynix Semiconductor",
+				"ProductName": "HMT351R7CFR4A-H9",
+				"SerialNumber": "2B58ED66",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Samsung",
+				"ProductName": "M393B5270DH0-YH9",
+				"SerialNumber": "87019215",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Micron",
+				"ProductName": "18KSF51272PZ-1G4K",
+				"SerialNumber": "D97589D0",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Hynix Semiconductor",
+				"ProductName": "HMT351R7EFR4A-H9",
+				"SerialNumber": "40037581",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Micron",
+				"ProductName": "18KSF51272PZ-1G4K",
+				"SerialNumber": "346C4A0E",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "HP647647-071-HYE",
+				"SerialNumber": "4419A849",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Micron",
+				"ProductName": "18KSF51272PZ-1G4K",
+				"SerialNumber": "E61E68CB",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			},
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "HP647647-071-HYE",
+				"SerialNumber": "D216678B",
+				"Type": "LPDDR",
+				"Size": "4096 MB",
+				"Speed": "1333 MT/s"
+			}
+		]
+	}
+}

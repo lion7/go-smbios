@@ -1,0 +1,62 @@
+{
+	"BIOS": {
+		"Vendor": "Dell Inc.",
+		"Version": "2.3.4",
+		"ReleaseDate": "11/08/2016"
+	},
+	"System": {
+		"Manufacturer": "Dell Inc.",
+		"ProductName": "PowerEdge R630",
+		"SerialNumber": "790H8D2",
+		"UUID": "4c4c4544-0039-3010-8048-b7c04f384432",
+		"SKUNumber": "SKU=NotProvided;ModelName=PowerEdge R630",
+		"Family": null
+	},
+	"Enclosure": {
+		"Manufacturer": "Dell Inc.",
+		"SerialNumber": "790H8D2"
+	},
+	"Baseboard": {
+		"Manufacturer": "Dell Inc.",
+		"ProductName": "02C2CP",
+		"SerialNumber": ".790H8D2.CN7475162M0382.",
+		"BoardType": "Unknown"
+	},
+	"Processors": {
+		"ProcessorCount": 1,
+		"TotalCoreCount": 8,
+		"TotalThreadCount": 16,
+		"Processors": [
+			{
+				"Manufacturer": "Intel",
+				"ProductName": "Intel(R) Xeon(R) CPU E5-2630 v3 @ 2.40GHz",
+				"SerialNumber": null,
+				"Speed": "2400 Mhz",
+				"CoreCount": 8,
+				"ThreadCount": 16
+			}
+		]
+	},
+	"Memory": {
+		"ModuleCount": 2,
+		"TotalSize": "32 GB",
+		"Modules": [
+			{
+				"Manufacturer": "002C00B3002C",
+				"ProductName": "18ASF2G72PDZ-2G3B1",
+				"SerialNumber": "12BDC045",
+				"Type": "LPDDR3",
+				"Size": "16384 MB",
+				"Speed": "2400 MT/s"
+			},
+			{
+				"Manufacturer": "002C00B3002C",
+				"ProductName": "18ASF2G72PDZ-2G3B1",
+				"SerialNumber": "12BDBF5D",
+				"Type": "LPDDR3",
+				"Size": "16384 MB",
+				"Speed": "2400 MT/s"
+			}
+		]
+	}
+}

@@ -44,7 +44,18 @@ func DoTestDesktopManagementInterface(t *testing.T, name string) {
 	actualJson, err := json.MarshalIndent(actual, "", "\t")
 	require.NoError(t, err)
 
+	summary := actual.Summarize()
+	actualSummaryJson, err := json.MarshalIndent(summary, "", "\t")
+	require.NoError(t, err)
+
+	//os.WriteFile("../test/" + name + ".json", actualJson, 0777)
+	//os.WriteFile("../test/" + name + "-summary.json", actualSummaryJson, 0777)
+
 	expectedJson, err := os.ReadFile("../test/" + name + ".json")
 	require.NoError(t, err)
 	require.Exactly(t, string(expectedJson), string(actualJson))
+
+	expectedSummaryJson, err := os.ReadFile("../test/" + name + "-summary.json")
+	require.NoError(t, err)
+	require.Exactly(t, string(expectedSummaryJson), string(actualSummaryJson))
 }

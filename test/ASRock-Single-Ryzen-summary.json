@@ -1,0 +1,62 @@
+{
+	"BIOS": {
+		"Vendor": "American Megatrends International, LLC.",
+		"Version": "P1.20",
+		"ReleaseDate": "05/19/2021"
+	},
+	"System": {
+		"Manufacturer": "",
+		"ProductName": "",
+		"SerialNumber": "",
+		"UUID": "00000000-0000-0000-0000-d05099faa835",
+		"SKUNumber": "",
+		"Family": ""
+	},
+	"Enclosure": {
+		"Manufacturer": "",
+		"SerialNumber": ""
+	},
+	"Baseboard": {
+		"Manufacturer": "ASRockRack",
+		"ProductName": "X570D4U",
+		"SerialNumber": "209624590000277",
+		"BoardType": "Processor/Memory Module"
+	},
+	"Processors": {
+		"ProcessorCount": 1,
+		"TotalCoreCount": 12,
+		"TotalThreadCount": 24,
+		"Processors": [
+			{
+				"Manufacturer": "Advanced Micro Devices, Inc.",
+				"ProductName": "AMD Ryzen 9 5900X 12-Core Processor",
+				"SerialNumber": "Unknown",
+				"Speed": "3700 Mhz",
+				"CoreCount": 12,
+				"ThreadCount": 24
+			}
+		]
+	},
+	"Memory": {
+		"ModuleCount": 2,
+		"TotalSize": "64 GB",
+		"Modules": [
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "KF3200C16D4/32GX",
+				"SerialNumber": "254857A6",
+				"Type": "LPDDR3",
+				"Size": "32768 MB",
+				"Speed": "2400 MT/s"
+			},
+			{
+				"Manufacturer": "Kingston",
+				"ProductName": "KF3200C16D4/32GX",
+				"SerialNumber": "2048690C",
+				"Type": "LPDDR3",
+				"Size": "32768 MB",
+				"Speed": "2400 MT/s"
+			}
+		]
+	}
+}
