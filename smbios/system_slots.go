@@ -6,17 +6,14 @@ package smbios
 
 import "github.com/digitalocean/go-smbios/smbios"
 
-// SystemSlotsStructure represents the SMBIOS systems slots structure.
-type SystemSlotsStructure struct {
-	*smbios.Structure
+// SystemSlot represents a SMBIOS system slot.
+type SystemSlot struct {
+	// SlotDesignation returns the slot designation.
+	SlotDesignation string
 }
 
-// SystemSlots returns a `SystemSlotsStructure`.
-func (s *SMBIOS) SystemSlots() SystemSlotsStructure {
-	return s.SystemSlotsStructure
-}
-
-// SlotDesignation returns the slot designation.
-func (s SystemSlotsStructure) SlotDesignation() string {
-	return get(s.Structure, 0)
+func NewSystemSlot(s *smbios.Structure) *SystemSlot {
+	return &SystemSlot{
+		SlotDesignation: *GetString(s, 0x04),
+	}
 }

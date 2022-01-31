@@ -6,17 +6,14 @@ package smbios
 
 import "github.com/digitalocean/go-smbios/smbios"
 
-// GroupAssociationsStructure represents the SMBIOS group associations structure.
-type GroupAssociationsStructure struct {
-	*smbios.Structure
+// GroupAssociations represents the SMBIOS group associations.
+type GroupAssociations struct {
+	// GroupName returns the group name.
+	GroupName string
 }
 
-// GroupAssociations returns a `GroupAssociationsStructure`.
-func (s *SMBIOS) GroupAssociations() GroupAssociationsStructure {
-	return s.GroupAssociationsStructure
-}
-
-// GroupName returns the group name.
-func (s GroupAssociationsStructure) GroupName() string {
-	return get(s.Structure, 0)
+func NewGroupAssociations(s *smbios.Structure) *GroupAssociations {
+	return &GroupAssociations{
+		GroupName: *GetString(s, 0x04),
+	}
 }

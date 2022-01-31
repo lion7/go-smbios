@@ -5,8 +5,8 @@
 package smbios_test
 
 import (
-	"errors"
-	"io/fs"
+	"encoding/json"
+	"os"
 	"testing"
 
 	"github.com/stretchr/testify/require"
@@ -14,16 +14,37 @@ import (
 	"github.com/talos-systems/go-smbios/smbios"
 )
 
-func TestNodeUUID(t *testing.T) {
-	s, err := smbios.New()
-	if err != nil {
-		if errors.Is(err, fs.ErrNotExist) || errors.Is(err, fs.ErrPermission) {
-			t.Skip("SMBIOS information is not available")
-		}
-	}
+func TestASRockSingleRyzen(t *testing.T) {
+	DoTestDesktopManagementInterface(t, "ASRock-Single-Ryzen")
+}
 
+func TestDellPowerEdgeR630DualXeon(t *testing.T) {
+	DoTestDesktopManagementInterface(t, "Dell-PowerEdge-R630-Dual-Xeon")
+}
+
+func TestDellSuperMicroDualXeon(t *testing.T) {
+	DoTestDesktopManagementInterface(t, "SuperMicro-Dual-Xeon")
+}
+
+func TestDellSuperMicroQuadOpteron(t *testing.T) {
+	DoTestDesktopManagementInterface(t, "SuperMicro-Quad-Opteron")
+}
+
+func DoTestDesktopManagementInterface(t *testing.T, name string) {
+	stream, err := os.Open("../test/" + name + ".dmi")
 	require.NoError(t, err)
 
-	_, err = s.SystemInformation().UUID()
+	//nolint: errcheck
+	defer stream.Close()
+
+	version := smbios.Version{Major: 3, Minor: 3, Revision: 0} // dummy version
+	actual, err := smbios.Decode(stream, version)
 	require.NoError(t, err)
+
+	actualJson, err := json.MarshalIndent(actual, "", "\t")
+	require.NoError(t, err)
+
+	expectedJson, err := os.ReadFile("../test/" + name + ".json")
+	require.NoError(t, err)
+	require.Exactly(t, string(expectedJson), string(actualJson))
 }

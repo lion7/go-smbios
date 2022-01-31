@@ -6,22 +6,17 @@ package smbios
 
 import "github.com/digitalocean/go-smbios/smbios"
 
-// PortConnectorInformationStructure represents the port connector information structure.
-type PortConnectorInformationStructure struct {
-	*smbios.Structure
+// PortConnectorInformation represents the port connector information.
+type PortConnectorInformation struct {
+	// InternalReferenceDesignator returns the port connector internal reference designator.
+	InternalReferenceDesignator *string
+	// ExternalReferenceDesignator returns the port connector external reference designator.
+	ExternalReferenceDesignator *string
 }
 
-// PortConnectorInformation returns a `PortConnectorInformationStructure`.
-func (s *SMBIOS) PortConnectorInformation() PortConnectorInformationStructure {
-	return s.PortConnectorInformationStructure
-}
-
-// InternalReferenceDesignator returns the port connector internal reference designator.
-func (s PortConnectorInformationStructure) InternalReferenceDesignator() string {
-	return get(s.Structure, 0)
-}
-
-// ExternalReferenceDesignator returns the port connector external reference designator.
-func (s PortConnectorInformationStructure) ExternalReferenceDesignator() string {
-	return get(s.Structure, 2)
+func NewPortConnectorInformation(s *smbios.Structure) *PortConnectorInformation {
+	return &PortConnectorInformation{
+		InternalReferenceDesignator: GetString(s, 0x04),
+		ExternalReferenceDesignator: GetString(s, 0x06),
+	}
 }
